@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - belirli paket calistirma">
+
+    <test name="Test - smokeTests ve excelautomation testleri">
+
+        <packages>
+
+            <package name="team02.excelautomation"></package>
+            <package name="team02.smokeTests"></package>
+
+        </packages>
+
+
+    </test>
+
+
+</suite>

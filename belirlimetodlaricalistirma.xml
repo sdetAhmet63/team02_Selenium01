@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - belirli methodlar">
+    <test name="Test - metod calistirma">
+        <classes>
+            <class name="team02.tests.AmazonTest">
+                <methods>
+
+                    <include name="test01"></include>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

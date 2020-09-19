@@ -9,7 +9,7 @@ import team02.utilities.TestBaseTeam02;
 
 public class AmazonTest extends TestBaseTeam02 {
 
-    @Test
+    @Test (groups = {"grup metod"} )
     public void test01(){
         driver.get("http://amazon.com");
 
